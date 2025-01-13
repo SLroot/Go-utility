@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// take an integer input from user(terminal, console)
 func IntInputFromUser() int {
 	fmt.Print("enter your number: ")
 	iinput := bufio.NewReader(os.Stdin)
